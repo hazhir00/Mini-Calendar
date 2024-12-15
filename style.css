@@ -1,0 +1,127 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* _______________________________________________________________ */
+
+/* Resets */
+/* 1. Use a more-intuitive box-sizing model 
+    2. Remove default margin
+    3. Remove default Padding*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 4.Setting Page's Font */
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+/* _______________________________________________________________ */
+
+/* Variables */
+:root {
+    /* Color Theme */
+
+    /* Typography */
+
+    /* Spacing */
+}
+
+/* Color Theme for Dark mode goes here */
+.dark-mode {
+}
+/* _______________________________________________________________ */
+/* !Main CSS */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #1d0000, #20205b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calender {
+    width: 20em;
+    height: 15em;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.right,
+.left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.right {
+    background: #f4351e;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    width: 45%;
+}
+
+.left {
+    width: 55%;
+}
+
+#date {
+    font-size: 4em;
+    line-height: 1em;
+}
+/* ___________.____________________________________________________ */
+/* Media Queries */
+@media() {
+}
+/* _______________________________________________________________ */
